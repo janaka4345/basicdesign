@@ -18,7 +18,7 @@ export default function Card({ title, by, src }) {
           // href="#"
           className="mt-auto"
         >
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-200 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white">
             {title}
           </h5>
         </a>
