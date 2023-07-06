@@ -1,0 +1,137 @@
+import Image from "next/image";
+import React from "react";
+
+export default function Products() {
+  return (
+    <div className="flex flex-row gap-4 mx-auto  w-full justify-between  px-4  overflow-x-auto  ">
+      <div className="min-w-[240px] max-h-fit  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="rounded-t-lg w-full h-[60%] lg:h-[65%] object-cover object-center"
+            src="/mountain.webp"
+            alt="mopuntain-climbers"
+          />
+        </a>
+        <div className="p-5 h-[40%] lg:h-[35%] ">
+          <a href="#">
+            <h5 className="mb-2 text-base lg:text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
+              PATAGONIA
+            </h5>
+          </a>
+          <p className="mb-3 text-sm lg:text-base font-normal text-gray-700 dark:text-gray-400">
+            AN ECOMMERCE EXPERIENCE DRIVEN BY PATAGONIA’S BRAND MISSION
+          </p>
+          <a
+            href="#"
+            className=" mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              className="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="min-w-[240px] max-h-fit    bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="rounded-t-lg w-full h-[60%] lg:h-[65%] object-cover object-center"
+            src="/tennisPlayer.webp"
+            alt=""
+          />
+        </a>
+        <div className="p-5 h-[40%] lg:h-[35%]">
+          <a href="#">
+            <h5 className="mb-2 text-base lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              WILSON
+            </h5>
+          </a>
+          <p className="mb-3 text-sm lg:text-base font-normal text-gray-700 dark:text-gray-400">
+            A CENTURY-OLD SPORTS BRAND FINDING ITS PLACE IN CULTURE
+          </p>
+          <a
+            href="#"
+            className=" mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              className="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="min-w-[240px] max-h-fit    bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          {/* <Image
+          width={0}
+          height={0}
+            sizes="100vw" className="rounded-t-lg object-cover object-center" src="/tennisPlayer.webp" alt="" /> */}
+          <video
+            autoPlay
+            muted
+            loop
+            className=" w-full rounded-t-lg h-[60%] lg:h-[65%] object-cover object-center "
+          >
+            <source src="GoogleStore.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </a>
+        <div className="p-5 h-[40%] lg:h-[35%]">
+          <a href="#">
+            <h5 className="mb-2 text-base lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              GOOGLE STORE
+            </h5>
+          </a>
+          <p className="mb-3 text-sm lg:text-base font-normal text-gray-700 dark:text-gray-400">
+            AN ECOMMERCE EXPERIENCE HELPING GOOGLE BRING ITS HARDWARE TO PEOPLE
+          </p>
+          <a
+            href="#"
+            className=" mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              className="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
