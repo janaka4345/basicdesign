@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Card({ title, by, src }) {
   return (
-    <div className="lg:w-1/4 w-[90%] h-[70dvh]  cursor-pointer  relative mx-auto group-hover:scale-110 group hover:-translate-y-5   rounded-lg overflow-hidden dark:bg-gray-800 ">
+    <div className="lg:w-1/4 w-[90%] h-[70dvh]  cursor-pointer  relative mx-auto group-hover:scale-110 group-focus:scale-110 group-hover:-translate-y-5 group-focus:-translate-y-5   rounded-lg overflow-hidden dark:bg-gray-800 ">
       <Image
         width={0}
         height={0}
